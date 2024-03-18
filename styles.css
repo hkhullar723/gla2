@@ -1,0 +1,63 @@
+img{
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 15px;
+    /* margin-left: 40px; */
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 1540px;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+    margin-top: 30px;
+    
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 520px;
+    width: 290px;
+    font-size: 0.7em;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+}
+
+button{
+    padding: 4px;
+    color: rgb(0, 0, 0);
+ font-size: large;
+    background-color: beige;
+    
+}
+
+body{
+    background-color: rgb(208, 241, 219);
+}
+
+p{
+color: purple;
+font-size: xx-large;
+}
+
+h2{
+    color: rgb(92, 5, 92) ;
+    font-size: x-large;
+    text-align: center;
+    padding: 2px;
+}
+
+label{
+    
+    font-size: x-large;
+}
+
+#category{
+width:100px;
+height: 30px;
+font-size: medium;
+background-color: beige;}
